@@ -42,5 +42,3 @@ if 'Type' in data.columns:
             st.write('This email is SPAM.')
         else:
             st.write('This email is NOT SPAM.')
-else:
-    st.write('The preprocessed data does not contain a "Type" column.')
